@@ -3,7 +3,7 @@ package com.corejava.string;
 import java.util.regex.Pattern;
 
 public class RegexTest {
-final static Pattern p =Pattern.compile("regex");
+final static Pattern p = Pattern.compile("regex");
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 //right way significant performance gain
