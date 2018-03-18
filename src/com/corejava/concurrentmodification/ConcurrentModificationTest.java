@@ -5,6 +5,7 @@ import java.util.HashMap;
 import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
+import java.util.concurrent.ConcurrentHashMap;
 
 public class ConcurrentModificationTest {
 
@@ -36,7 +37,9 @@ List<String> myList = new ArrayList<String>();
 			System.out.println("Map Value:"+myMap.get(key));
 			if(key.equals("2")){
 				myMap.put("1","4");
-				//myMap.put("4", "4");
+				myMap.put("4", "4");
+				//it1.remove();
+				//myMap.remove("2");
 			}
 		}
 
