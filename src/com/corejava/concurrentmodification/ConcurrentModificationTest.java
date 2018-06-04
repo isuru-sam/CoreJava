@@ -30,6 +30,13 @@ List<String> myList = new ArrayList<String>();
 		myMap.put("1", "1");
 		myMap.put("2", "2");
 		myMap.put("3", "3");
+		
+		for(String s:myMap.keySet()){
+			if(s.equals("2")) {
+				//myMap.remove("1");
+			//myMap.remove("2");
+			}
+		}
 
 		Iterator<String> it1 = myMap.keySet().iterator();
 		while(it1.hasNext()){

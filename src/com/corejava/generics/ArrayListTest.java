@@ -20,7 +20,7 @@ Number[] i= new BigDecimal[1];
 
 BigDecimal[] b = (BigDecimal[]) new Number[2];
 
-List<Integer> intlist = List.of(43);
+//List<Integer> intlist = List.of(43);
 //List<String>[] y= new ArrayList<String>[1];
 //List<Object> l = new ArrayList<Long>();
 	}
